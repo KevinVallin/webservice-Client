@@ -14,7 +14,7 @@
       <p>Mois : {{ uiData.month }}</p>
       <p>Année : {{ uiData.year }}</p>
       <h2>Date sélectionnée : {{ uiData.selectedDate }}</h2>
-      <!-- Affichez d'autres données ici -->
+      
     </div>
     <div v-if="showCalendar">
       <label>Sélectionnez une date :</label>
@@ -37,7 +37,7 @@ export default {
       month: '',
       year: '',
       uiData: null,
-      selectedDate: '', // Initialisez selectedDate à vide
+      selectedDate: '', 
       showCalendar: false,
     };
   },
@@ -72,5 +72,5 @@ export default {
 </script>
 
 <style scoped>
-/* Ajoutez des styles CSS ici si nécessaire */
+/* Ajoutez des styles CSS */
 </style>
